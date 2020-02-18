@@ -1,0 +1,112 @@
+
+    *{
+        padding:0;
+        margin:0;
+        font-family:Arial, Helvetica, sans-serif;    
+    }
+    body{
+        background-color: lightgrey;
+    }
+    .container{
+        margin: 0 auto;
+        width: 750px;
+        height:140vh;
+        background-color:white;
+        box-shadow: 10px 20px 10px grey;
+    }
+    .left{
+        float: left;
+        width: 30%;
+        margin-left:20px;
+        height: 140vh;
+        background-color: #383838;
+        box-sizing: border-box;
+        color:white;
+    }
+    .gambar{
+        margin: 0 auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+        background-image: url(profilepic.jpg);
+        background-position: -25px -25px;
+    }
+
+    .containerleft{
+        width:100%;
+        height: 150px;
+        list-style-type: none;
+    }
+    .gradienttitleleft{
+        margin-top: 30px;
+        margin-left: -10px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        color: white;
+        background: linear-gradient(90deg, rgba(115,147,164,1) 0%, rgba(57,117,128,1) 68%);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .isileft{
+    font-size: 12px;
+    }
+    .bar{
+        background:#353b48;
+        height:2px;
+        display:block;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 10px #2187e7b3;
+    }
+    .bar span{
+        height: 2px;
+        float:left;
+        background:#2187e7;
+    }
+    .indonesia{
+        width: 90%;
+    }
+    .inggris, .sketchup{
+        width: 80%;
+    }
+    .mandarin, .dsmax{
+        width: 50%;
+    }
+    .autocad, .photoshop{
+        width: 75%
+    }
+    .judulright{
+        width: 100%;
+        height: 150px;
+        background: linear-gradient(90deg, rgba(115,147,164,1) 0%, rgba(57,117,128,1) 68%);
+        padding: 20px;
+        box-sizing: border-box;
+        color:white;
+    }
+    .containerright{
+        width:65%;
+        float:right;
+    }
+    .gradienttitleright{
+        margin-top: 30px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        color: white;
+        background: linear-gradient(90deg, rgba(115,147,164,1) 0%, rgba(57,117,128,1) 68%);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+.title{
+    margin-left: 10px;
+}
+
+.lists{
+    margin: 10px 25px 15px;
+    text-align: justify;
+}
+.isiright{
+    margin: 15px 15px;
+}
